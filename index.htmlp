@@ -3,7 +3,7 @@
     <title> Aula-07 </title>
   </head>
   <body>
-    <h1>Dados Recebdos</h1>
+    
     <form method="post" action="/recebe.html>
       Nome Completo <input type="text"maxlenght="50" id="Nome Completo" name="Nome Completo"
       <br></br>
