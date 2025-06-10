@@ -5,24 +5,33 @@
   <body>
     <p>METODO POST</p>
     <form method="post" action="/recebe.html">
-      Nome Completo <input type="text" maxlenght="50" id="Nome Completo" name="Nome Completo">
+      <label for="NomeCompleto"> Nome Completo:</label>
+      Nome Completo <input type="text" maxlenght="50" id="NomeCompleto" name="NomeCompleto">
       <br>
+      <label for="Senha"> Senha:</label>
       Senha <input type="password"  id="Senha" name="Senha">
       <br>
+      <label for="idade"> idade:</label>
       idade <input type="number" max="120" min="1" id="idade" name="idade">
       <br>
+      <label for="email"> email:</label>
       email <input type="email"  id="email" name="email">
       <br>
-      Data de nascimento <input type="date" id="data" name="data de nascimento" min="01.01.2000" max="31.12.20024">
-      mensagem pessoal: <textarea rows="4" cals="40" name="mensagem pessoal"></textarea>
+      <label for="data"> data:</label>
+      Data de nascimento <input type="date" id="data" name="datadenascimento" min="01.01.2000" max="31.12.2024">
+      <br>
+      <!--label é igual ao id-->
+      <label for="mensagempessoal"> mensagem pessoal:</label>
+      mensagem pessoal: <textarea rows="4" cals="40" name="mensagempessoal" id="mensagempessoal"></textarea>
       <br>
       area de interesse : <br>
+      <select>
         <option value="Suporte">Suporte</option>
         <option value="Programação">Programação</option>
         <option value="Design">Design</option>
         <option value="Redes" >Redes</option>
-      <buton value="Entrar"></buton>
-      
+      </select>
+      <input type="submit" value="Entrar"
     </form>
   </body>
 </html>
